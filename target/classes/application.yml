@@ -1,5 +1,5 @@
 server:
-  port: 8887
+  port: 8883
 
 spring:
   application:
@@ -7,6 +7,10 @@ spring:
   devtools:
     livereload:
       enabled: true
+  datasource:
+    url: jdbc:mysql://129.28.158.68:3306/mall?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
 
   thymeleaf:
     cache: false
